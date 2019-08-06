@@ -31,7 +31,7 @@ namespace SecurityCam
     public sealed partial class MainPage : Page
     {
         private const string _kModelFileName = "tiny-yolov2-1.2.onnx";
-        private const LearningModelDeviceKind _kModelDeviceKind = LearningModelDeviceKind.Default;
+        //private const LearningModelDeviceKind _kModelDeviceKind = LearningModelDeviceKind.Default;
         private Model _model = null;
         private Input _input = new Input();
         private Output _output = new Output();

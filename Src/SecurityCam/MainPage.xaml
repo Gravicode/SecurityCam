@@ -14,12 +14,9 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <my:CameraPreview x:Name="CameraPreview"
-                          Grid.Row="0" />
-        <Canvas Name="YoloCanvas"
-                Grid.Row="0" />
-        <TextBlock x:Name="TextBlockInformation"
-                   Grid.Row="1" />
+        <my:CameraPreview x:Name="CameraPreview" Grid.Row="0" />
+        <Canvas Name="YoloCanvas" Grid.Row="0" />
+        <TextBlock x:Name="TextBlockInformation" Grid.Row="1" />
         <my:Expander Grid.Row="2" IsExpanded="False" Header="Security Options" >
             <StackPanel Orientation="Vertical">
                 <CheckBox x:Name="ChkGuardian" Content="Guardian Mode" />
